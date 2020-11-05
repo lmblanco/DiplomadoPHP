@@ -1,0 +1,3 @@
+Edad: 25 años
+Experiencia: 3 años en programación (Tecnólogo en sistemas)
+Curso: Me entere por un amigo del trabajo en Comfenalco
