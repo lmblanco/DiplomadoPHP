@@ -12,5 +12,11 @@ h2{
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     color: darkgoldenrod;
+}
 
+.parrafo{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgoldenrod;
+    font-size: 20px;
 }
