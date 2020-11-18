@@ -63,3 +63,15 @@ h2{
     content: "\f0a9";
     color:midnightblue;
 }
+
+.container-list li:nth-child(2)::marker{
+    font-size: 30px;
+    content: "\f542";
+    color: orangered;
+}
+
+.container-list li:nth-child(3)::marker{
+    font-size: 30px;
+    content: "\f1e3";
+    color:olive;
+}
