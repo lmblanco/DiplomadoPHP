@@ -1,7 +1,7 @@
 
 // Ciclo While
 let numero = 1;
-debugger;
+//debugger;
 while (numero < 10) {
     debugger;
     numero++;
@@ -10,7 +10,7 @@ while (numero < 10) {
 
 numero = 1;
 do {
-  debugger;  
+  //debugger;  
   numero++;
   console.log(numero);   
 
@@ -29,14 +29,14 @@ do {
 
 
 // ciclo for
-for (let i = 1; i < 3; i++) {
-    console.log(i);
-}
+// for (let i = 1; i < 3; i++) {
+//     console.log(i);
+// }
 
-for (let i = 0; i < i <= 6; i++) {
-    console.log(i);
+// for (let i = 0; i < i <= 6; i++) {
+//     console.log(i);
     
-}
+// }
 
 let lista = ["gato","perro","gallina","elefante","delfin"];
 
