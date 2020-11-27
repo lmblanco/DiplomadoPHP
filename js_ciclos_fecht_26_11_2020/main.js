@@ -3,7 +3,7 @@
 let numero = 1;
 //debugger;
 while (numero < 10) {
-    debugger;
+    //debugger;
     numero++;
     console.log(numero);
 }
@@ -20,9 +20,9 @@ numero = 1;
 do {
   let user = prompt("Ingrese su usuario");
   
-  if (user=="Miguel") {
+  if (user=="Miguel Blanco") {
       permiso = false;
-      document.write("Inicio de sesion");    
+      document.write("Iniciaste");    
   }
   
 } while (permiso);
@@ -38,7 +38,7 @@ do {
     
 // }
 
-let lista = ["gato","perro","gallina","elefante","delfin"];
+let lista = ["gato","perro","gallina","elefante","delfin", "toro"];
 
 for (let index = 0; index < lista.length; index++) {
     console.log(lista[index]);
