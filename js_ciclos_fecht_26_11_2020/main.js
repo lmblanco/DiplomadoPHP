@@ -9,6 +9,7 @@ while (numero < 10) {
 }
 
 numero = 1;
+let permiso = false;
 do {
   //debugger;  
   numero++;
@@ -21,7 +22,7 @@ do {
   let user = prompt("Ingrese su usuario");
   
   if (user=="Miguel Blanco") {
-      permiso = false;
+      permiso = true;
       document.write("Iniciaste");    
   }
   
