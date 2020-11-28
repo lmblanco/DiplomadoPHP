@@ -25,7 +25,7 @@
 
 // var_dump($lista2);
 
-$lista3 = array("nombre" => "miguel", "apellido" => "blanco");
+//$lista3 = array("nombre" => "miguel", "apellido" => "blanco");
 // foreach ($lista3 as $key => $value) {
 //     if ($value == "miguel") {
 //         echo $key."<br>";
@@ -46,24 +46,45 @@ $lista3 = array("nombre" => "miguel", "apellido" => "blanco");
 //     array("x","y","z")
 // );
 
-// var_dump($matriz[3][0]);
+//var_dump($matriz[3][0]);
 
-$matriz_asociativo = array(
-        "terrestre" => array(
-                        "perro",
-                        "gato"
-        ),
-        "acuaticos" => array(
-                        "ballena",
-                        "delfin"
-        ),
-        "aereos" => array(
-                        "loro",
-                        "paloma"
-        ),
-);
+// $matriz_asociativo = array(
+//         "terrestre" => array(
+//                         "perro",
+//                         "gato"
+//         ),
+//         "acuaticos" => array(
+//                         "ballena",
+//                         "delfin"
+//         ),
+//         "aereos" => array(
+//                         "loro",
+//                         "paloma"
+//         ),
+// );
 
-var_dump($matriz_asociativo['acuaticos'][1]);
+//var_dump($matriz_asociativo['acuaticos'][2])
+
+function operaciones($num1,$num2,$oper){
+    $result = 0;
+    switch ($oper) {
+        case 'suma':
+            $result = $num1 + $num2;
+            break;
+        case 'resta':
+            $result = $num1 - $num2;
+            break;
+        default:
+            # code...
+            break;
+    }
+
+    return $result;
+
+}
+
+
+echo operaciones(2,2,'suma');
 
 
 ?>
