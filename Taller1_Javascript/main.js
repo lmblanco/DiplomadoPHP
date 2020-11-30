@@ -5,10 +5,10 @@ let numero = prompt("Ingrese un número para validarlo.");
 let result ="";
 function validarNumero(numero) {
     if(numero % 2 == 0) {
-        result = "El número "+numero+", ingresado es Par.";
+        result = "El número "+numero+", ingresado es Par.<br>";
     }
     else {
-      result = "El número "+numero+", ingresado es Impar.";
+      result = "El número "+numero+", ingresado es Impar.<br>";
     }
   }
 
@@ -29,7 +29,7 @@ var valores = [true, 5, false, "hola", "adios", 2];
 let suma=0, resta=0, multiplicacion=0, division=0;
 for (let i = 0; i < valores.length; i++) {
     if (typeof valores[i] == "string") {
-        document.write(valores[i]+", ");
+        document.write(valores[i]+", <br>");
     }
 
     if (typeof valores[i] == "number") {
