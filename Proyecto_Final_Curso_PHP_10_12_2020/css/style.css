@@ -1,0 +1,82 @@
+:root{
+    --color-green: #727238;
+    --color-white: #515a51;
+    --color-grey: #aaaeaf;
+}
+
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: 200;
+    background-color: var(--color-grey);
+    color: var(--color-green);
+    letter-spacing: .05rem;
+
+}
+
+.text-light{
+    color: var(--color-green) !important;
+}
+
+.text-dark{
+    color: var(--color-grey) !important;
+}
+
+.bg-light{
+    background-color: var(--color-grey) !important;
+}
+
+.bg-dark{
+    background-color: var(--color-grey) !important;
+}
+
+.lead, .nav-link{
+    font-size: 1.6rem;
+}
+
+h1, h2, h3{
+    font-weight: 600;
+}
+
+.btn-primary{
+    background-color: var(--color-green) !important;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.4rem;
+    padding: .5rem 2rem;
+}
+
+.btn-primary:hover{
+    background-color: var(--color-green) !important;
+    border: 0;
+    opacity: .9;
+}
+
+.carousel-indicators{
+    margin: 0;
+    display: block;
+    top: 50%;
+    right: 40px;
+    left: unset;
+    transform: translateY(-50%);
+}
+
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.slide-number{
+    bottom: 20px;
+    right: 40px;
+}
+
+.py-6{
+    padding: 3.4rem;  
+}
+
+.text-white-50{
+    color: rgba(255, 255, 255, .5) !important;
+}
+
+
