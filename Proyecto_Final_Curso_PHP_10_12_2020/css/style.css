@@ -1,19 +1,23 @@
 :root{
-    --color-green: #727238;
-    --color-white: #515a51;
-    --color-grey: #aaaeaf;
+    --color-green: #5d9e44;
+    --color-white: #f1f6f1;
+    --color-grey: #767879;
 }
 
 
 body{
     font-family: 'Baloo Chettan 2', cursive;
     font-weight: 200;
-    background-color: var(--color-grey);
+    background-color: var(--color-white);
     color: var(--color-green);
     letter-spacing: .05rem;
 }
 
 .text-light{
+    color: var(--color-white) !important;
+}
+
+.text-green{
     color: var(--color-green) !important;
 }
 
@@ -27,6 +31,10 @@ body{
 
 .bg-dark{
     background-color: var(--color-grey) !important;
+}
+
+.bg-footer{
+    background-color: var(--color-green) !important;
 }
 
 .lead, .nav-link{
