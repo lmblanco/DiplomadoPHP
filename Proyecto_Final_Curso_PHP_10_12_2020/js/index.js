@@ -11,7 +11,13 @@ $(document).ready(function () {
         },
         data: {datos: null},
         success: function (response) {
-            console.log(response);
+            let json = JSON.parse(response);
+            let keys = Object.keys(json["Datos"]);
+            keys.forEach(id =>{
+                $(".navbar-nav").append('<li class="nav-item">\
+                                            <a class="nav-link text-light" href="#">'+json["Datos"][id]["Nombre"]+'</a>\
+                                         </li>');
+            });
         }
     });
 });

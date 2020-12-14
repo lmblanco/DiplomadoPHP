@@ -36,7 +36,7 @@ interface Metodos{
                     "URL" => "#"
                 ),
                 "Menu_4" => array(
-                    "Archivo" => "Perfil.html",
+                    "Archivo" => "perfil.html",
                     "Nombre" => "PERFIL",
                     "URL" => "#"
                 )
