@@ -23,22 +23,45 @@ interface Metodos{
                 "Menu_1" => array(
                     "Archivo" => "index.html",
                     "Nombre" => "INICIO",
-                    "URL" => "#"
+                    "URL" => "http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/index.html",
+                    "movil" => array(
+                        "Archivo" => "index.html",
+                        "Nombre" => "INICIO",
+                        "URL" => "http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/index.html"
+                    )
                 ),
                 "Menu_2" => array(
                     "Archivo" => "curso.html",
                     "Nombre" => "CURSO",
-                    "URL" => "#"
+                    "URL" => "http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/vistas/curso.html",
+                    "movil" => array(
+                        "Archivo" => "curso.html",
+                        "Nombre" => "CURSO",
+                        "URL" => "http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/vistas/curso.html"
+                    )
                 ),
                 "Menu_3" => array(
                     "Archivo" => "hobbies.html",
                     "Nombre" => "HOBBIES",
-                    "URL" => "#"
+                    "URL" => "http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/vistas/hobbies.html",
+                    "movil"   => array(
+                        "Archivo" => "hobbies.html",
+                        "Nombre" => "HOBBIES",
+                        "URL" => "http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/vistas/hobbies.html"
+                    )
                 ),
                 "Menu_4" => array(
                     "Archivo" => "perfil.html",
                     "Nombre" => "PERFIL",
-                    "URL" => "#"
+                    "URL" => "http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/vistas/perfil.html",
+                    "movil" => array(
+                        "Archivo" => "perfil.html",
+                        "Nombre" => "PERFIL",
+                        "URL" => "http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/vistas/perfil.html"
+                    )
+                ),
+                "Logo" => array(
+                    "Nombre" => '<span class="font-weight-bold text-green">Loremp</span> <span class="text-dark">Insump</span>'
                 )
             ),
             "Plantilla" => array()
