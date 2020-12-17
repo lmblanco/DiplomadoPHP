@@ -85,20 +85,20 @@ interface Metodos{
             "Datos" => array(
                 "Imagen_1" => array(
                     "URL" =>  '<div class="carousel-item active">
-                                    <h1 class="img-1 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">PROGRAMACION</h1>
-                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img1.jpg">
+                                    <h1 class="img-1 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">PROGRAMACIÓN</h1>
+                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img11.jpg">
                                 </div>'
                 ),
                 "Imagen_2" => array(
                     "URL" =>  '<div class="carousel-item">
                                     <h1 class="img-2 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">FUTBOL</h1>
-                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img2.jpg">
+                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img10.jpg">
                                 </div>'
                 ),
                 "Imagen_3" => array(
                     "URL" =>  '<div class="carousel-item">
                                     <h1 class="img-3 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">MUSICA</h1>
-                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img3.jpg">
+                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img12.jpg">
                                 </div>'
                 )
             ),
@@ -156,7 +156,7 @@ interface Metodos{
             "id" => "Session1",
             "Datos" => array(
                 "Titulo" => '<h1 class="mb-3">La programación es mi Hobbie</h1>',
-                "Parrafo" => '<p class="lead mb-3">Me gusta la carrera de programación, porque por medio de esto se pueden crear cosas muy cheveres..</p>'
+                "Parrafo" => '<p class="lead mb-3">Me gusta la carrera de programación, porque por medio de esta se pueden crear cosas muy novedosas..</p>'
             ),
             "Plantilla" => array(
                 "Boton"
@@ -165,7 +165,7 @@ interface Metodos{
         "16082192265fdb7a5aad68a" => array(
             "id" => "Session_curso",
             "Datos" => array(
-                "Titulo" => '<h1 class="mb-3">Estos son cursos nuevos</h1>',
+                "Titulo" => '<h1 class="mb-3">Los lenguajes de programación más usados</h1>',
                 "Parrafo" => '<p class="lead mb-3">Cursos profesionales de PHP, Javascript y Python</p>'
             ),
             "Plantilla" => array(
@@ -176,7 +176,7 @@ interface Metodos{
             "id" => "Session_perfil",
             "Datos" => array(
                 "Titulo" => '<h1 class="mb-3">Este es mi perfil</h1>',
-                "Parrafo" => '<p class="lead mb-3">Las cosas que me gusta hacer, como ir a la playa, salir a viajar en moto, y los videojuegos. </p>'
+                "Parrafo" => '<p class="lead mb-3">Encontrara algunas de las cosas que me gustan, como ir a la playa, salir a viajar y videojuegos. </p>'
             ),
             "Plantilla" => array(
                 "Boton"
