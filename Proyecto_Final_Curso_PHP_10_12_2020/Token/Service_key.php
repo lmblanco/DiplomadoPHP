@@ -97,7 +97,7 @@ interface Metodos{
                 ),
                 "Imagen_3" => array(
                     "URL" =>  '<div class="carousel-item">
-                                    <h1 class="img-3 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">MUSICA</h1>
+                                    <h1 class="img-3 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">MÚSICA</h1>
                                     <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img12.jpg">
                                 </div>'
                 )
