@@ -76,7 +76,7 @@ interface Metodos{
             "id" => "Footer_informacion",
             "Datos" => array(
                 "Experiencia" => '<h2 class="mb-3">Tecnólogo en Sistemas con 3 años en programación </h2>',
-                "Como_Me_Entere_Curso" => '<p class="lead text-white-50 mb-8">Me entere del diplomado por un amigo del trabajo en Comfenalco</p>'
+                "Como_Me_Entere_Curso" => '<p class="lead text-white-50 mb-8">Me entere del diplomado por un amigo del trabajo en Comfenalco Santander</p>'
             ),
             "Plantilla" => array()
         ),

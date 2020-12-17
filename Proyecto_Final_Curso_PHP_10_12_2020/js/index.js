@@ -81,7 +81,7 @@ $(document).ready(function () {
     });
 
 
-    let URL = ['<a href="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/vistas/hobbies.html" class="btn btn-primary">Ver mis pasatiempos</a>'];
+    let URL = ['<a href="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/vistas/hobbies.html" class="btn btn-primary">Mis pasatiempos</a>'];
     $.ajax({
         type: "POST",
         url: "Api.php",
