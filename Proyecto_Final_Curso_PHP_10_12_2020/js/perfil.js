@@ -1,26 +1,10 @@
-// KEY CLASE:  Service_menu.php e34a2c3bdd77be244ed2da33980cf3cfe967ac69
-// KEY METODO: Menu_PC 16079269095fd7047d65711
-
-// KEY CLASE:  Service_footer 69f3c3e2510ec04815365ea0d027dc84bd335749
-// KEY METODO: Informacion  16081637195fdaa187b0408
-
-// KEY CLASE: Service_imagenes e7824eacb458dd094ea88650339708728e3eaf5a
-// KEY METODO: Imagenes_index   16081646985fdaa55a8a067
-
-// KEY CLASE: Service_index f658078cfc136eca7b26453b545fc448361db817
-// KEY METODO: Session_index   16082165435fdb6fdf5b8b4
-// KEY METODO: Imagenes_curso   16082180935fdb75edbfbcb
-// KEY METODO: Session_curso   16082192265fdb7a5aad68a
-// KEY METODO: Imagenes_perfil   16082201375fdb7de994ad9
-// KEY METODO: Session_perfil   16082202165fdb7e38ddabd
-
 
 
 $(document).ready(function () {
     // Crear el menu segun los parametros
     $.ajax({
         type: "POST",
-        url: "Api.php",
+        url: "../Api.php",
         headers : {
             "Class" : "e34a2c3bdd77be244ed2da33980cf3cfe967ac69",
             "Token-Metodo" :"16079269095fd7047d65711",
@@ -49,7 +33,7 @@ $(document).ready(function () {
     // Crear el footer segun los parametros
     $.ajax({
         type: "POST",
-        url: "Api.php",
+        url: "../Api.php",
         headers : {
             "Class" : "69f3c3e2510ec04815365ea0d027dc84bd335749",
             "Token-Metodo" :"16081637195fdaa187b0408",
@@ -66,10 +50,10 @@ $(document).ready(function () {
     // Crear las imagenes segun los parametros
     $.ajax({
         type: "POST",
-        url: "Api.php",
+        url: "../Api.php",
         headers : {
             "Class" : "e7824eacb458dd094ea88650339708728e3eaf5a",
-            "Token-Metodo" :"16081646985fdaa55a8a067",
+            "Token-Metodo" :"16082201375fdb7de994ad9",
         },
         data: {datosenviados: null},
         success: function (response) {
@@ -80,14 +64,14 @@ $(document).ready(function () {
         }
     });
 
-
-    let URL = ['<a href="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/vistas/hobbies.html" class="btn btn-primary">Ver mis pasatiempos</a>'];
+    // Crear la session del parrafo
+    let URL = ['<a href="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/index.html" class="btn btn-primary">Regresar</a>'];
     $.ajax({
         type: "POST",
-        url: "Api.php",
+        url: "../Api.php",
         headers : {
             "Class" : "f658078cfc136eca7b26453b545fc448361db817",
-            "Token-Metodo" :"16082165435fdb6fdf5b8b4",
+            "Token-Metodo" :"16082202165fdb7e38ddabd",
         },
         data: {URL},
         success: function (response) {
@@ -100,7 +84,7 @@ $(document).ready(function () {
 
     // $.ajax({
     //     type: "GET",
-    //     url: "Api.php",
+    //     url: "../Api.php",
     //     success: function (response) {
     //         console.log(response);
     //     }

@@ -5,7 +5,7 @@ interface Clases{
         "Service_menu" => "e34a2c3bdd77be244ed2da33980cf3cfe967ac69",
         "Service_footer" => "69f3c3e2510ec04815365ea0d027dc84bd335749",
         "Service_imagenes" => "e7824eacb458dd094ea88650339708728e3eaf5a",
-        "Service_index" => "e7824eacb458dd094ea15650339708728e3eaf5a"
+        "Service_index" => "f658078cfc136eca7b26453b545fc448361db817"
     );
 }
 interface Metodos{
@@ -64,7 +64,7 @@ interface Metodos{
                     )
                 ),
                 "Logo" => array(
-                    "Nombre" => '<span class="font-weight-bold text-green">Luis</span> <span class="text-dark">Blanco</span>',
+                    "Nombre" => '<span class="font-weight-bold text-green">Miguel</span> <span class="text-dark">Blanco</span>',
                     "movil" => array(
                         "Nombre" => 'OPC. Menú'
                     )
@@ -75,8 +75,8 @@ interface Metodos{
         "16081637195fdaa187b0408" => array(
             "id" => "Footer_informacion",
             "Datos" => array(
-                "Experiencia" => '<h2 class="mb-3">Tecnologo en Sistemas llevo en programación 3 años, </h2>',
-                "Como_Me_Entere_Curso" => '<p class="lead text-white-50 mb-8">Me entere por un amigo del trabajo en comfenalco</p>'
+                "Experiencia" => '<h2 class="mb-3">Tecnólogo en Sistemas con 3 años en programación </h2>',
+                "Como_Me_Entere_Curso" => '<p class="lead text-white-50 mb-8">Me entere del diplomado por un amigo del trabajo en Comfenalco</p>'
             ),
             "Plantilla" => array()
         ),
@@ -104,11 +104,79 @@ interface Metodos{
             ),
             "Plantilla" => array()
         ),
-        "16081646915fdaa55a8a187" => array(
+        "16082180935fdb75edbfbcb" => array(
+            "id" => "Imagenes_curso",
+            "Datos" => array(
+                "Imagen_1" => array(
+                    "URL" =>  '<div class="carousel-item active">
+                                    <h1 class="img-1 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">PHP</h1>
+                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img4.jpg">
+                                </div>'
+                ),
+                "Imagen_2" => array(
+                    "URL" =>  '<div class="carousel-item">
+                                    <h1 class="img-2 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">JAVASCIPT</h1>
+                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img5.jpg">
+                                </div>'
+                ),
+                "Imagen_3" => array(
+                    "URL" =>  '<div class="carousel-item">
+                                    <h1 class="img-3 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">PYTHON</h1>
+                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img6.jpg">
+                                </div>'
+                )
+            ),
+            "Plantilla" => array()
+        ),
+        "16082201375fdb7de994ad9" => array(
+            "id" => "Imagenes_perfil",
+            "Datos" => array(
+                "Imagen_1" => array(
+                    "URL" =>  '<div class="carousel-item active">
+                                    <h1 class="img-1 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">PLAYA</h1>
+                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img7.jpg">
+                                </div>'
+                ),
+                "Imagen_2" => array(
+                    "URL" =>  '<div class="carousel-item">
+                                    <h1 class="img-2 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">VIAJAR</h1>
+                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img8.jpg">
+                                </div>'
+                ),
+                "Imagen_3" => array(
+                    "URL" =>  '<div class="carousel-item">
+                                    <h1 class="img-3 slide-number display-4 position-absolute text-light font-weight-bold d-none d-sm-block">VIDEOJUEGOS</h1>
+                                    <img class="d-block w-100" src="http://localhost/DiplomadoPHP/Proyecto_Final_Curso_PHP_10_12_2020/img/img9.jpg">
+                                </div>'
+                )
+            ),
+            "Plantilla" => array()
+        ),
+        "16082165435fdb6fdf5b8b4" => array(
             "id" => "Session1",
             "Datos" => array(
-                "Titulo" => '<h1 class="mb-3">Este es mi unico pasatiem</h1>',
-                "Parrafo" => '<p class="lead mb-3">Me gusta programar ya que desde niño siempre fue mi estudio principal y llevo 6 años en la programación</p>'
+                "Titulo" => '<h1 class="mb-3">La programación es mi Hobbie</h1>',
+                "Parrafo" => '<p class="lead mb-3">Me gusta la carrera de programación, porque por medio de esto se pueden crear cosas muy cheveres..</p>'
+            ),
+            "Plantilla" => array(
+                "Boton"
+            )
+        ),
+        "16082192265fdb7a5aad68a" => array(
+            "id" => "Session_curso",
+            "Datos" => array(
+                "Titulo" => '<h1 class="mb-3">Estos son cursos nuevos</h1>',
+                "Parrafo" => '<p class="lead mb-3">Cursos profesionales de PHP, Javascript y Python</p>'
+            ),
+            "Plantilla" => array(
+                "Boton"
+            )
+        ),
+        "16082202165fdb7e38ddabd" => array(
+            "id" => "Session_perfil",
+            "Datos" => array(
+                "Titulo" => '<h1 class="mb-3">Este es mi perfil</h1>',
+                "Parrafo" => '<p class="lead mb-3">Las cosas que me gusta hacer, como ir a la playa, salir a viajar en moto, y los videojuegos. </p>'
             ),
             "Plantilla" => array(
                 "Boton"
