@@ -80,13 +80,7 @@ $(document).ready(function () {
         }
     });
 
-    $.ajax({
-        type: "GET",
-        url: "../Api.php",
-        success: function (response) {
-            console.log(response);
-        }
-    });
+  
 
 
 });
