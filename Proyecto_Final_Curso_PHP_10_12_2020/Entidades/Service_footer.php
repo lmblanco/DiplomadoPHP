@@ -17,4 +17,5 @@ class Service_footer extends Service_plantilla{
         return json_encode($datos, JSON_PRETTY_PRINT);
     }
 }
+
 ?>

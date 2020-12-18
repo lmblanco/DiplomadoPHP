@@ -15,4 +15,5 @@ class Service_usuario extends Service_plantilla{
         return "Hola ".$_AJAX["Nombre"]." ".$_AJAX["Apellido"]." ".$_DATA['Mensaje'];
     }
 }
+
 ?>

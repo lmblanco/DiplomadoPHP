@@ -19,4 +19,5 @@ class Service_menu extends Service_plantilla{
         return json_encode($datos, JSON_PRETTY_PRINT);
     }
 }
+
 ?>

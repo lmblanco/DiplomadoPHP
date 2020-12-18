@@ -30,4 +30,5 @@ class Service_imagenes extends Service_plantilla{
         return json_encode($datos, JSON_PRETTY_PRINT);
     }
 }
+
 ?>
