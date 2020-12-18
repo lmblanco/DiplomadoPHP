@@ -1,6 +1,6 @@
 
 
-
+// clase
 $(document).ready(function () {
     $.ajax({
         type: "POST",
@@ -79,8 +79,6 @@ $(document).ready(function () {
             $(".hero-content").append(json["Plantilla"]["Boton"]);
         }
     });
-
-  
 
 
 });

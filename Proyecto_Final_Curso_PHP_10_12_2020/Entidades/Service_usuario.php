@@ -1,4 +1,5 @@
 <?php
+// clase
 class Service_usuario extends Service_plantilla{
     public static $service_usuario;
     public function __construct(){

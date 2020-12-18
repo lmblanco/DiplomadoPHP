@@ -1,4 +1,5 @@
 <?php
+// clase
 class Service_menu extends Service_plantilla{
     public static $service_menu;
     public function __construct(){

@@ -1,4 +1,5 @@
 <?php
+// clase
 class Service_imagenes extends Service_plantilla{
     public static $service_imagenes;
     public function __construct(){

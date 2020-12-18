@@ -1,4 +1,5 @@
 <?php
+// clase
 interface Clases{
     const token_class = array(
         "Service_usuario" => "bb989335b1866cfe9c4660a4027c63b4e4b519fd",

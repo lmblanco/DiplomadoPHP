@@ -1,4 +1,5 @@
 <?php
+// clase
 class Service_footer extends Service_plantilla{
     public static $service_footer;
     public function __construct(){

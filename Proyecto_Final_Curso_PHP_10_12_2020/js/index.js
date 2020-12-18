@@ -15,6 +15,7 @@
 // KEY METODO: Session_perfil   16082202165fdb7e38ddabd
 
 
+// clase
 $(document).ready(function () {
     // Crear el menu segun los parametros
     $.ajax({

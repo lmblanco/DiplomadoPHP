@@ -1,4 +1,5 @@
 <?php
+// clase
 class Servive_token{
     protected $token;
     protected $archivo;

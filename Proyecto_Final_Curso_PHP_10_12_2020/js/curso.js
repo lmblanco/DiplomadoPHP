@@ -2,6 +2,7 @@
 
 $(document).ready(function () {
     // Crear el menu segun los parametros
+    
     $.ajax({
         type: "POST",
         url: "../Api.php",

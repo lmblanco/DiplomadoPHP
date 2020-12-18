@@ -1,4 +1,5 @@
 <?php
+// clase
 class Service_index extends Service_plantilla{
     public static $service_index;
     public function __construct(){

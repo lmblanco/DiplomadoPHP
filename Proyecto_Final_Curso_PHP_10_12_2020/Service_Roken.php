@@ -18,8 +18,6 @@ class Service_Token{
         return $this->Archivo($arg,$this->token_validar);
     }
 
-
-
 }
 
 
