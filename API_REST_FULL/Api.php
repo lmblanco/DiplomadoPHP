@@ -1,5 +1,6 @@
 <?php
 
+header('Access-Control-Allow-Origin: *');
 // class Seguridad(){
 //     protected function Token($token){
 //         if ($token == "123") {

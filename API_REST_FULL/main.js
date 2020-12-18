@@ -1,6 +1,4 @@
 
-header('Access-Control-Allow-Origin: *');
-
 $(document).ready(function () {
     $("#enviar").click(function (e) {
         e.preventDefault();
